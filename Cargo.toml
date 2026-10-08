@@ -3,4 +3,8 @@ name = "trackpad"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+harness = false
+name = "trackpad"
+
 [dependencies]

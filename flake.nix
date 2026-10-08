@@ -24,6 +24,7 @@
         rustToolchain = pkgs.rust-bin.stable.latest.default.override {
           extensions = [
             "rust-src"
+            "llvm-tools-preview"
             "clippy"
             "rust-analyzer"
           ];
@@ -36,8 +37,10 @@
           mkShell {
             buildInputs = [
               rustToolchain
-              probe-rs-tools
               pkg-config
+
+              tombi
+              probe-rs-tools
             ];
           };
       }
