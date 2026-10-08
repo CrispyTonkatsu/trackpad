@@ -41,6 +41,9 @@
 
               tombi
               probe-rs-tools
+              llvmPackages.bintools
+
+              python3
             ];
           };
       }
