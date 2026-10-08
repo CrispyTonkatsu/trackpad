@@ -8,3 +8,4 @@ harness = false
 name = "trackpad"
 
 [dependencies]
+cortex-m-rt = "0.7.7"
