@@ -45,6 +45,8 @@
 
               python3
             ];
+
+            DEFMT_LOG = "info";
           };
       }
     );
